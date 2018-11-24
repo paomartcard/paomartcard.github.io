@@ -747,7 +747,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-section.probootstrap-section-dark {
-  background: #84939b;
+  background: #161C2E;
   color: white;
 }
 
@@ -876,7 +876,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-half .text {
   padding: 100px;
-  background: #84939b;
+  background: #161C2E;
 }
 
 @media screen and (max-width: 1000px) {
@@ -941,7 +941,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-half .btn-ghost-white:hover, .probootstrap-half .btn-ghost-white:active, .probootstrap-half .btn-ghost-white:focus {
   background: none !important;
-  border-color: #ffffff !important;
+  border-color: #84939b !important;
 }
 
 .probootstrap-half:hover .image, .probootstrap-half:focus .image, .probootstrap-half:active .image {
@@ -962,7 +962,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   left: 0px;
   margin-left: -50px;
   top: 0;
-  color: rgba(255, 255, 255, 0.05);
+  color: rgba(225, 255, 255, 0.05);
   z-index: 1;
   line-height: 100px;
   position: absolute;
@@ -1125,7 +1125,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-footer-flex .probootstrap-footer-cta:before {
   position: absolute;
   content: "";
-  background: #84939b;
+  background: #161C2E;
   width: 0;
   top: 0;
   left: 0;
