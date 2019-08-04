@@ -53,12 +53,12 @@ body {
 }
 
 ::selection {
-    background-color: #e71a8e;
+    background-color: #0D487E;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background-color: #e71a8e;
+    background-color: #0D487E;
     color: #ffffff;
 }
 
@@ -120,7 +120,7 @@ fieldset {
 .section-title h2 {
     margin-top: 0;
     font-weight: 600;
-    border-bottom: 4px double #e71a8e;
+    border-bottom: 4px double #0D487E;
 	border-radius: 25px;
     font-size: 30px;
     margin: 0 auto;
@@ -195,7 +195,7 @@ fieldset {
 .button-style:hover,
 .button-style:active,
 .button-style:focus {
-	background: #e71a8e;
+	background: #0D487E;
 	color: #ffffff !important;
 }
 
@@ -260,7 +260,7 @@ body.loaded #preloader{
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #e71a8e;
+    border-top-color: #0D487E;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -274,7 +274,7 @@ body.loaded #preloader{
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #e71a8e;
+    border-top-color: #0D487E;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
@@ -288,7 +288,7 @@ body.loaded #preloader{
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #e71a8e;
+    border-top-color: #0D487E;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
 }
@@ -540,7 +540,7 @@ ul.portfolio li:hover {
 
 ul.portfolio li.active {
     color: #ffffff;
-    background-color: #e71a8e;
+    background-color: #0D487E;
     padding: 5px 20px;
     border-radius: 20px;
     box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
@@ -579,7 +579,7 @@ ul.portfolio li.active {
   opacity: 0;
   left: 0%;
   right: 0%;
-  background-color: #e71a8e;
+  background-color: #0D487E;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -596,7 +596,7 @@ ul.portfolio li.active {
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
 	margin-top: 40px;
     font-size: 50px;
-    background-color: #e71a8e;
+    background-color: #0D487E;
     width: 44px;
 	right: 0px;
 }
@@ -638,7 +638,7 @@ ul.portfolio li.active {
 .testimonial-word h2 {
     font-size: 12px;
     text-transform: uppercase;
-	color: #e71a8e;
+	color: #0D487E;
     font-weight: 700;
     letter-spacing: 4px;
     margin: 20px 0px;
@@ -649,7 +649,7 @@ ul.portfolio li.active {
 }
 
 .owl-navi {
-	color: #e71a8e;
+	color: #0D487E;
 }
 
 .owl-navi:hover {
@@ -727,7 +727,7 @@ ul.portfolio li.active {
 }
 
 .services-section hr {
-  border-bottom: 2px solid #e71a8e;
+  border-bottom: 2px solid #0D487E;
   width: 42px;
   margin-left: 0px;
 }
@@ -829,14 +829,14 @@ ul.portfolio li.active {
 }
 
 .form-control:focus {
-	border-color: #e71a8e;
+	border-color: #0D487E;
 	border-width: 2px;
 }
 
 .map {
     width: 100%;
     height: 340px;
-    border: 1px solid #e71a8e;
+    border: 1px solid #0D487E;
 }
 
 
@@ -1021,10 +1021,10 @@ ul.portfolio li.active {
         padding: 11px 15px;
     }
     .navigation-menu .navbar-nav li a:hover {
-        color: #e71a8e;
+        color: #0D487E;
     }
     .navigation-background .navigation-menu .navbar-nav li a:hover {
-        color: #e71a8e;
+        color: #0D487E;
     }
     .navigation-background .navigation-menu .navbar-nav li a {
         padding: 11px 15px;
@@ -1120,7 +1120,7 @@ ul.portfolio li.active {
 /* Scroll To Top */
 
 .scroll-to-top {
-    background-color: #e71a8e;
+    background-color: #0D487E;
     display: none;
     width: 50px;
     height: 50px;
@@ -1460,7 +1460,7 @@ ul.portfolio li.active {
 }
 
 .uipasta-credit a {
-    color: #e71a8e;
+    color: #0D487E;
     font-weight: 600;
 }
 
@@ -1484,7 +1484,7 @@ ul.portfolio li.active {
 }
 
 .white-popup a {
-    color: #e71a8e;
+    color: #0D487E;
 }
 
 .white-popup a:hover {
