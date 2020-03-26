@@ -7,7 +7,8 @@
   <script type="text/javascript" src="./js/script.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <title>Paola Martinez</title>
+  <link rel="icon" href="img/logo.png" type="image/x-icon">
+  <title>Paola Martínez</title>
 </head>
 
 <body>
@@ -19,16 +20,22 @@
   <!-- Sidebar -->
   <div class="w3-sidebar w3-bar-block" style="display:none" id="mySidebar">
     <button onclick="w3_close()" class="w3-bar-item w3-large">&times;</button>
+    <a href="#" onclick="openModal('about')" class="w3-button w3-bar-item" style="padding-top:0px; padding-bottom:0px; padding-left:0px; margin-left:0px;"><p style="font-size: 10px; margin-left: 10px;" >ABOUT ME</p></a>
+    <p style="font-size: 10px; padding-left: 10px;">PROJECTS</p>
     <a href="#" onclick="openModal('moneypool')" class="w3-bar-item w3-button">Moneypool PM Internship</a>
     <a href="#" onclick="openModal('homemade')" class="w3-bar-item w3-button">Homemade Mobile App</a>
     <a href="#" onclick="openModal('photoshare')" class="w3-bar-item w3-button">Photo Sharing Web App</a>
     <a href="#" onclick="openModal('iphd')" class="w3-bar-item w3-button">IPHD India Development Intern</a>
-    <a href="#" onclick="openModal('vip')" class="w3-bar-item w3-button">Very IMpactful People (VIP)</a>
+    <a href="#" onclick="openModal('vip')" class="w3-bar-item w3-button">Very Impactful People (VIP)</a>
     <a href="#" onclick="openModal('ilba')" class="w3-bar-item w3-button">International Latino Business Association</a>
-    <a href="#" onclick="openModal('moneypool')" class="w3-bar-item w3-button">Moneypool</a>
     <a href="#" onclick="openModal('mobment')" class="w3-bar-item w3-button">Mobile Mentor App</a>
     <a href="#" onclick="openModal('library')" class="w3-bar-item w3-button">Library Paraiso del Libro</a>
     <a href="#" onclick="openModal('sin')" class="w3-bar-item w3-button">Social Impact Night</a>
+    <p style="font-size: 10px;  padding-left: 10px;">CONTACT</p>
+    <div style="padding-left: 17px;">
+      <a href="mailto:paomartcard@gmail.com"><i class="fa fa-envelope icon" style="font-size:24px; margin-right: 5px;"></i></a>
+      <a href="https://www.linkedin.com/in/paomartcard/"><i class="fa fa-linkedin-square icon" style="font-size:24px"></i></a>
+    </div>
   </div>
 
   <div id="top">
@@ -51,7 +58,8 @@
     <svg height="1" width="100%">
       <rect  height="1" width="93%" style="fill:#5e5d5c;" />
     </svg>
-    <p style="font-size: 10px;">PROJECTS</p>
+    <a href="#" onclick="openModal('about')" class="w3-button" style="padding-top:0px; padding-bottom:0px; padding-left:0px; margin-left:0px;"><p style="font-size: 10px; margin-left: 10px;" >ABOUT ME</p></a>
+    <p style="font-size: 10px; padding-left: 10px;">PROJECTS</p>
     <a href="#" onclick="openModal('moneypool')" class="w3-bar-item w3-button">Moneypool PM Internship</a>
     <a href="#" onclick="openModal('homemade')" class="w3-bar-item w3-button">Homemade Mobile App</a>
     <a href="#" onclick="openModal('photoshare')" class="w3-bar-item w3-button">Photo Sharing Web App</a>
@@ -61,9 +69,11 @@
     <a href="#" onclick="openModal('mobment')" class="w3-bar-item w3-button">Mobile Mentor App</a>
     <a href="#" onclick="openModal('library')" class="w3-bar-item w3-button">Library Paraiso del Libro</a>
     <a href="#" onclick="openModal('sin')" class="w3-bar-item w3-button">Social Impact Night</a>
-    <p style="font-size: 10px;">CONTACT</p>
-    <a href="mailto:paomartcard@gmail.com"><i class="fa fa-envelope" style="font-size:24px; margin-right: 5px;"></i></a>
-    <a href="https://www.linkedin.com/in/paomartcard/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
+    <p style="font-size: 10px;  padding-left: 10px;">CONTACT</p>
+    <div style="padding-left: 17px;">
+      <a href="mailto:paomartcard@gmail.com"><i class="fa fa-envelope icon" style="font-size:24px; margin-right: 5px;"></i></a>
+      <a href="https://www.linkedin.com/in/paomartcard/"><i class="fa fa-linkedin-square icon" style="font-size:24px"></i></a>
+    </div>
   </div>
 
   <div id="main">
@@ -121,10 +131,20 @@
 
 </body>
 
+<div class="modal" id="about" onclick="closeModal('about')">
+  <div class="modalWarpper">
+    <button class="modalClose" onclick="closeModal('about')">&times;</button>
+    <h3>About Me</h3>
+    <img class="portfolioImage" src="img/portfolio/about.jpg" alt="">
+    <p> As a lover of people and technology, I am interested in creating human-centered, tech-based innovations that foster positive social impact. Growing up in Mexico gave me exposure to the widespread inequalities and lack of opportunities that many people in developing countries face. It is my mission in life to use my passion for technology and human-centered design to find solutions for the most pressing problems in the developing world. </p>
+    <p>As a student, I have enjoyed working on a variety of projects that involve social entrepreneurship, tech, design thinking and international development. Feel free to explore them below and reach out to me if you have ideas for projects we could collaborate on.</p>
+  </div>
+</div>
 <div class="modal" id="moneypool" onclick="closeModal('moneypool')">
   <div class="modalWarpper">
     <button class="modalClose" onclick="closeModal('moneypool')">&times;</button>
     <h3>Moneypool Product Management Internship</h3>
+    <img class="portfolioImage" src="img/portfolio/moneypool.jpg" alt="">
     <p>This past summer I worked at <a href="https://www.moneypool.mx/" target="_blank">Moneypool</a> in Monterrey, Mexico. Moneypool provides users with the same functionality that Venmo provides for users in the United States.</p>
     <p>During the first part of my internship, I spent time developing specs and implementing a feature ranking system after noticing a need to be more data-driven. </p>
     <p>The feature ranking system is basically a spreadsheet that uses the ICE metric (Impact, Certainty, and Ease) to rank a list of potential features in order of importance. To use it you basically provide a feature and list what support you have for it (market data, estimates and plans, anecdotal evidence, ect). These indicators each have a weight depending on its importance and they output a final ICE score which is used to determine the feature’s ranking.</p>
@@ -135,25 +155,28 @@
   <div class="modalWarpper">
     <button class="modalClose" onclick="closeModal('homemade')">&times;</button>
     <h3>Homemade Mobile App</h3>
+    <img class="portfolioImage" src="img/portfolio/homemade.jpg" alt="">
+    <p><a target="_blank" href="http://web.stanford.edu/class/cs147/projects/Travel/Homemade/" class="w3-button modalButton">Homemade Website</a></p>
     <p>As part of my concentration in Human Computer Interaction within Computer Science, this past quarter I worked in a team of four to create a mobile app called Homemade. Homemade is the result of our quarter-long work in which we used agile methodologies and the design thinking process. We began with needfinding and ended up with a high fidelity prototype. </p>
     <p>Through Homemade, travelers and locals meet, teach each other to cook a recipe from their respective cultures, and enjoy their meal together. As a result, the local learns about the traveler's culture, and the traveler has an authentic experience.</p>
     <p>Learn more about Homemade by exploring its website!</p>
-    <p><a target="_blank" href="http://web.stanford.edu/class/cs147/projects/Travel/Homemade/" class="button button-style button-style-dark button-style-icon fa fa-long-arrow-right smoth-scroll">Homemade Website</a></p>
   </div>
 </div>
 <div class="modal" id="photoshare" onclick="closeModal('photoshare')">
   <div class="modalWarpper">
     <button class="modalClose" onclick="closeModal('photoshare')">&times;</button>
     <h3>Photo Sharing Web App</h3>
+    <img class="portfolioImage" src="img/portfolio/photoshare.jpg" alt="">
+    <p><a target="_blank" href="https://youtu.be/mCazJh5lyaU" class="w3-button modalButton">Demo Video</a></p>
     <p>I recently programed and designed a photo sharing app using MEAN stack development. The application includes features such as tracking user activities, liking, favorite/unfavorite, commenting, and more. It was praised by a grader for being “absolutely incredible. The best one of these (she’d) seen”.</p>
     <p>In the class where I learned MEAN stack dev, I also learned about the basics of cloud computing.</p>
-    <p><a target="_blank" href="https://youtu.be/mCazJh5lyaU" class="button button-style button-style-dark button-style-icon fa fa-long-arrow-right smoth-scroll">Demo Video</a></p>
   </div>
 </div>
 <div class="modal" id="iphd" onclick="closeModal('iphd')">
   <div class="modalWarpper">
     <button class="modalClose" onclick="closeModal('iphd')">&times;</button>
     <h3>IPHD India Development Intern </h3>
+    <img class="portfolioImage" src="img/portfolio/iphd.jpg" alt="">
     <p>During the summer of 2017, I worked for the  <a href="https://iphdindia.com" >Institute for Philanthropy and Humanitarian Development</a> (IPHD), a non-profit in Jodhpur, India. During my time there, I created a four-year strategic business plan that will impact over 400 beneficiaries and conducted field research to identify obstacles preventing girls from receiving education. </p>
     <p>My time in Jodhpur was an eye-opening experience in which I learned to empathize with people that had completely different backgrounds than mind. The lessons I learned by living with a traditional Indian homestay family transcend any sort of formal education I have every received. </p>
   </div>
@@ -162,17 +185,18 @@
   <div class="modalWarpper">
     <button class="modalClose" onclick="closeModal('vip')">&times;</button>
     <h3>Very Impactful People (VIP) Speaker Series</h3>
+    <img class="portfolioImage" src="img/portfolio/vip.jpg" alt="">
+    <p><button target="_blank" href="https://www.sensaimpact.com/aboutvip/" class="w3-button modalButton">SENSA | VIP</button></p>
     <p>During my sophomore year I led an eight-person team in creating bi-annual, Stanford credited speaker series with over one-hundred students enrolled. We hosted 20 social entrepreneurs, all founders/CEOs, from organizations including B Corps, Kiva, ACLU, Path and many more. </p>
-    <p>The VIP Speaker Series is an effort undertaken by Stanford’s Social Entrepreneurial Students Association (SENSA). Although, this speaker series had been held for many years, under my leadership, we decided to innovate and create a new project in which we created five-minute interview videos of each of our speakers. We also designed the way we did speaker outreach so that the speaker profiles would be better tailored to our audience’s preferences. This resulted in a 20% increase in number of audience members.</p>
+    <p>The VIP Speaker Series is an effort undertaken by Stanford’s Social Entrepreneurial Students Association (SENSA). Under my leadership, we decided to create a new project in which we created five-minute interview videos of each of our speakers and re-vamped our speaker selection process (resulted in a 20% increase in audience size).</p>
     <p>I thoroughly enjoyed leading this speaker series, because I love listening to the success stories of the social entrepreneurs and use them as inspiration for future social ventures.</p>
-    <p>Feel free to explore SENSA’s website to learn more.</p>
-    <p><a target="_blank" href="https://www.sensaimpact.com/aboutvip/" class="button button-style button-style-dark button-style-icon fa fa-long-arrow-right smoth-scroll">SENSA | VIP</a></p>
   </div>
 </div>
 <div class="modal" id="ilba" onclick="closeModal('ilba')">
   <div class="modalWarpper">
     <button class="modalClose" onclick="closeModal('ilba')">&times;</button>
     <h3>International Latino Business Association</h3>
+    <img class="portfolioImage" src="img/portfolio/ilba.jpg" alt="">
     <p>As president and former vice president of the International Latino Business Association (ILBA), I collaborate with students from the Graduate Business Scool to organize social events and an annual mentorship program with over 62 participants. We also organize recruitment events, professional workshops and networking events, all with the goal of creating a stronger Latino community at Stanford.</p>
   </div>
 </div>
@@ -180,6 +204,7 @@
   <div class="modalWarpper">
     <button class="modalClose" onclick="closeModal('mobment')">&times;</button>
     <h3>Mobile Mentor: React Native App</h3>
+    <img class="portfolioImage" src="img/portfolio/mobment.jpg" alt="">
     <p>Along with two other team-mates, I designed and built Native app that enables users to provide personal health information and receive tailored push notifications to incentivize positive health habits.</p>
     <p>The app was built for <a target="_blank" href="https://jovensalud.net/web/index.jsp">Joven Salud</a>, a Costa Rican non-profit. Working with them allowed to be develop experience with client relationships and bridging commnication between the technical and non-technical world.</p>
   </div>
@@ -188,15 +213,17 @@
   <div class="modalWarpper">
     <button class="modalClose" onclick="closeModal('library')">&times;</button>
     <h3>Library Paraiso del Libro</h3>
+    <img class="portfolioImage" src="img/portfolio/library.jpg" alt="">
     <p>As president of the National Honor Society (NHS) my super-star team and I underwent a three-year process in which we fundraised (> 16K), built, and stocked a library in a rural elementary school near Monterrey, Mexico.</p>
     <p>This is the project that stole my heart and has inspired me to lead a life of social impact. It involved lots of collaboration with the local community, and constantly overcoming set-backs. The library was inaugurated March 19, 2016 and named "Paraiso del Libro" by the students. To this day, students continue to enjoy the safe and creative learning space we were able to provide.</p>
-    <p><a target="_blank" href="https://youtu.be/TAK6QS9KrvI" class="button button-style button-style-dark button-style-icon fa fa-long-arrow-right smoth-scroll">Inauguration Day Video</a></p>
+    <p><a target="_blank" href="https://youtu.be/TAK6QS9KrvI" class="w3-button modalButton">Inauguration Day Video</a></p>
   </div>
 </div>
 <div class="modal" id="sin" onclick="closeModal('sin')">
   <div class="modalWarpper">
     <button class="modalClose" onclick="closeModal('sin')">&times;</button>
     <h3>Social Impact Night</h3>
+    <img class="portfolioImage" src="img/portfolio/sin.jpg" alt="">
     <p>As the <a target="_blank" href="https://www.sensaimpact.com/">Social Entrepreneurial Students' Association</a> (SENSA) Co-Head of operations, I led the inaugural Social Impact Night. With over 150 atendees, Social IMpact Night served as the space for students from all disciplines and all education levels to speak about there social entrepreneurship interest and ventures. In a school like Stanford, when communication between masters, undergrads, and Phds doesn't occur often, Social Impact night was a complete success. </p>
   </div>
 </div>

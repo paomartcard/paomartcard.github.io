@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Spartan:300&display=swap');
 
-.modalTitle{
-}
-
-
 .modalClose{
   position: absolute;
   top: 0px;
@@ -33,26 +29,30 @@
   font-family: 'Spartan', sans-serif;
   position: fixed;
   z-index: 100;
+  width: 100%;
   max-width: 900px;
   margin: auto;
   padding-right: 5%;
   padding-left: 5%;
-  /*width: 100%;
   height: 100%;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  margin-top: 0%;
-  margin-bottom: 0%;*/
+  overflow: auto;
+}
 
+.modalButton{
+  margin-top: 7px;
+  border: 1px solid #5e5d5c;
+  font-size: 10px;
 }
 
 .modalWarpper {
-  /*font-family: 'Spartan', sans-serif;
-  margin-left: 20%;
-  margin-right: 20%;*/
+}
+
+.icon {
+  -webkit-filter: brightness(170%);
+}
+
+.icon:hover {
+  -webkit-filter: brightness(100%);
 }
 
 .image:hover {
@@ -67,7 +67,16 @@
   width: 97%;
 }
 
-a {
+.portfolioImage{
+  float: left;
+  width: 50%;
+  height: auto;
+  margin-top: 3%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+}
+
+.w3-bar-item {
   font-size: 10px;
 }
 
@@ -111,16 +120,6 @@ button {
   cursor: pointer;
   text-align: center;
 }
-
-/*#backgrounder {
-  display: none;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 99;
-  width: 100%;
-  height: 100%;
-}*/
 
 #descriptionText {
   font-size: 12px;
@@ -199,4 +198,11 @@ button {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .modal {
+    width: 90%;
+    max-width: 550px;
+    margin: auto;
+  }
+
 }
